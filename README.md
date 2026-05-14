@@ -1,27 +1,27 @@
 # Adventure Works Cycles - Sales Performance BI Dashboard
 
-![Adventure Works Power BI Dashboard](screenshots/adventureworks_powerbi_1.png)
+![Adventure Works Power BI Dashboard](screenshots/Adventureworks%20Power%20BI%20Dashboard%20Pic%201.png)
 
 ## 🎯 Project Objective
 
-Adventure Works Cycles is a multinational manufacturer and seller of metal and composite bicycles. This **End-to-End Business Intelligence Project** analyzes sales data to provide deep insights into:
+Adventure Works Cycles is a multinational manufacturer and seller of high-quality bicycles and accessories. This **End-to-End Business Intelligence Project** analyzes sales data across multiple years to deliver actionable insights on:
 
 - Overall sales performance and profitability
-- Year-over-year and monthly sales trends
-- Product performance and top-selling items
-- Customer behavior and regional analysis
-- Cost vs Sales comparison for better margin understanding
+- Monthly, Quarterly, and Yearly trends
+- Product and Customer performance
+- Regional sales across different territories
+- Sales vs Production Cost comparison
 
-The project helps stakeholders make data-driven decisions for market expansion, inventory management, and cost optimization.
+The analysis supports strategic decision-making for business growth and cost optimization.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Microsoft Excel** – Data Modeling, Pivot Tables & Charts
-- **Power BI** – Interactive Dashboard with DAX Measures & KPIs
+- **Power BI** – Interactive Dashboard with DAX & KPIs
 - **Tableau** – Advanced Visualizations & Storytelling
-- **SQL** – Database Creation, Data Transformation & Analytical Queries
+- **SQL** – Database Schema, Transformations & Analytical Queries
 
 ---
 
@@ -32,7 +32,7 @@ The project helps stakeholders make data-driven decisions for market expansion, 
 - **Profit Margin**: ~29.36%
 - **Total Orders**: ~27.7K – 60K
 - **Total Customers**: 18.5K
-- **Total Products Sold**: 158
+- **Total Products**: 158
 - **Average Order Value**: $1,061
 
 ---
@@ -40,50 +40,45 @@ The project helps stakeholders make data-driven decisions for market expansion, 
 ## 📁 Project Structure
 
 - **Dashboards/** → Excel, Power BI & Tableau files
-- **SQL/** → Database schema and analytical queries
+- **SQL/** → Analytical SQL queries
 - **screenshots/** → Dashboard images
 
 ---
 
 ## 📸 Dashboard Views
 
-### 1. Excel Dashboard 
-Comprehensive static dashboard featuring:
-- Overall KPIs (Total Sales, Profit, Tax, Customers)
-- Monthly & Quarterly Sales Trends
-- Sales vs Production Cost comparison
-- Year-wise Sales
-- Top Products by Sales & Profit
+### 1. Excel Dashboard
+Static dashboard with overall KPIs, Monthly & Quarterly Sales, Sales vs Cost comparison, Yearly Sales, and Top Products.
 
-### 2. Power BI Dashboard 
-Fully interactive dashboards with:
-- KPI Cards (Sales, Profit, Margin, Orders, Customers)
-- Year-wise, Quarter-wise, Monthly-wise, and Country-wise Sales
+### 2. Power BI Dashboard
+Interactive dashboards featuring:
+- Key KPI Cards
+- Year-wise, Quarter-wise, Monthly-wise & Country-wise Sales
 - Top 10 Products
+- Sales by Category & Territory (with Map)
 - Profit trend over time
-- Sales by Category & Territory with Map visual
 - Sales vs Production Cost & Profit comparison
 
-### 3. Tableau Dashboard 
-Advanced analytics with:
-- Big KPI Cards with YoY Sales & Margin %
-- Sales by Year, Quarter, Month, Region & Product Subcategory
-- Geographic Map by Sales Territory
+### 3. Tableau Dashboard
+Advanced visualizations including:
+- Sales & Profit by Year, Quarter & Month
+- Geographic Sales Territory Map
+- Sales by Product Subcategory
 - Top Customers by Sales
-- Sales vs Profit by Year and Territory
+- Sales vs Cost by Territory
 
 ---
 
 ## 💾 SQL Queries Included
 
 The SQL file contains:
-- Creation of Star Schema (Dimension & Fact Tables)
-- Union of FactInternetSales and Fact_Internet_Sales_New
-- Lookup for Product Name and Customer Full Name
-- Date Intelligence (Year, Month, Quarter, Financial Month/Quarter, Weekday)
-- Sales Amount, Production Cost & Profit Calculations
-- Aggregated queries for Year-wise, Month-wise, Quarter-wise Sales
-- Top Products, Top Customers, and Region-wise Performance
+- Star Schema creation (Dimension & Fact Tables)
+- Union of Fact Internet Sales tables
+- Product & Customer lookups
+- Date Intelligence (Year, Month, Quarter, Financial Period, Weekday)
+- Sales Amount, Production Cost & Profit calculations
+- Aggregated analysis for Year/Month/Quarter-wise performance
+- Top Products, Top Customers & Region-wise queries
 
 ---
 
@@ -91,20 +86,20 @@ The SQL file contains:
 
 1. Clone or download this repository
 2. Open files inside the **Dashboards** folder:
-   - `AdventureWorks_Excel_Dashboard.xlsx`
-   - `AdventureWorks_PowerBI_Dashboard.pbix`
-   - `AdventureWorks_Tableau_Dashboard.twbx`
+   - `Adventureworks Excel Dashboard.xlsx`
+   - `Adventureworks Power BI Dashboard.pbix`
+   - `Adventureworks Tableau Dashboard.twbx`
 3. Explore SQL queries in the **SQL** folder
 
 ---
 
 ## 📸 Screenshots
 
-![Excel Dashboard](screenshots/adventureworks_excel.png)  
-![Power BI Dashboard 1](screenshots/adventureworks_powerbi_1.png)  
-![Power BI Dashboard 2](screenshots/adventureworks_powerbi_2.png)  
-![Tableau Dashboard 1](screenshots/adventureworks_tableau_1.png)  
-![Tableau Dashboard 2](screenshots/adventureworks_tableau_2.png)
+![Excel Dashboard](screenshots/Adventureworks%20Excel%20Dashboard%20Pic.png)  
+![Power BI Dashboard 1](screenshots/Adventureworks%20Power%20BI%20Dashboard%20Pic%201.png)  
+![Power BI Dashboard 2](screenshots/Adventureworks%20Power%20BI%20Dashboard%20Pic%202.png)  
+![Tableau Dashboard 1](screenshots/Adventureworks%20Tableau%20Dashboard%20Pic%201.png)  
+![Tableau Dashboard 2](screenshots/Adventureworks%20Tableau%20Dashboard%20Pic%202.png)
 
 ---
 
